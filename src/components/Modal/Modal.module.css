@@ -1,0 +1,17 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 1, 1, 0.8);
+  z-index: 1300;
+}
+
+.image {
+  max-width: calc(90vw - 50px);
+  max-height: calc(90vh - 28px);
+}
