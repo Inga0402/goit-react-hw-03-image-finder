@@ -105,7 +105,7 @@ export default class App extends Component {
         )}
         <div className="container">
           {status === Status.PENDING && (
-            <Loader type="ThreeDots" color="red" height={80} width={80} />
+            <Loader type="ThreeDots" color="pink" height={70} width={70} />
           )}
           {status === Status.RESOLVED && (
             <Button onClick={this.handleBtnClick} />
