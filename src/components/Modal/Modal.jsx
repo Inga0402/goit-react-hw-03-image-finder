@@ -46,7 +46,7 @@ class Modal extends Component {
 
   render() {
     const { src, alt } = this.props;
-    return createPortal (
+    return createPortal(
       <div className={st.Overlay} onClick={this.handleBackdropClick}>
         <div className={st.Modal}>
           {this.state.isImageLoading && (

@@ -101,7 +101,7 @@ export default class App extends Component {
             src={currentImgObj.largeUrl}
             alt={currentImgObj.alt}
             onClose={this.toggleModal}
-          ></Modal>
+          />
         )}
         <div className="container">
           {status === Status.PENDING && (
